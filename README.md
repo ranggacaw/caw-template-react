@@ -1,4 +1,4 @@
-# [Material Tailwind Kit React](http://demos.creative-tim.com/material-tailwind-kit-react/#/?ref=readme-mtkr) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/intent/tweet?url=https://www.creative-tim.com/product/material-tailwind-kit-react&text=Check%20Material%20Tailwind%20Kit%20React%20made%20by%20@CreativeTim%20#webdesign%20#kit%20#materialdesign%20#react%20#materialtailwind%20#tailwindcss%20https://www.creative-tim.com/product/material-tailwind-kit-react)
+# [Material Tailwind Kit React](http://demos.creative-tim.com/material-tailwind-kit-react/#/?ref=readme-mtkr) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/intent/tweet?url=#&text=Check%20Material%20Tailwind%20Kit%20React%20made%20by%20@CreativeTim%20#webdesign%20#kit%20#materialdesign%20#react%20#materialtailwind%20#tailwindcss%20#)
 
 ![version](https://img.shields.io/badge/version-2.1.0-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/material-tailwind-kit-react.svg)](https://github.com/creativetimofficial/material-tailwind-kit-react/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/material-tailwind-kit-react.svg)](https://github.com/creativetimofficial/material-tailwind-kit-react/issues?q=is%3Aissue+is%3Aclosed)
 
@@ -58,7 +58,7 @@ Let us know your thoughts below. And good luck with development!
 
 ## Versions
 
-[<img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/react-logo.jpg?raw=true" width="60" height="60" />](https://www.creative-tim.com/product/material-tailwind-kit-react?ref=readme-mtkr)
+[<img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/react-logo.jpg?raw=true" width="60" height="60" />](#?ref=readme-mtkr)
 
 | React |
 | ----- |
@@ -78,7 +78,7 @@ Let us know your thoughts below. And good luck with development!
 
 Quick start options:
 
-- Downdload from [Creative Tim](https://www.creative-tim.com/product/material-tailwind-kit-react?ref=readme-mtkr).
+- Downdload from [Creative Tim](#?ref=readme-mtkr).
 
 ## Terminal Commands
 
@@ -135,7 +135,7 @@ At present, we officially aim to support the last two versions of the following 
 ## Resources
 
 - [Live Preview](https://demos.creative-tim.com/material-tailwind-kit-react/#/home?ref=readme-mtkr)
-- [Download Page](https://www.creative-tim.com/product/material-tailwind-kit-react?ref=readme-mtkr)
+- [Download Page](#?ref=readme-mtkr)
 - Documentation is [here](https://material-tailwind.com/?ref=readme-mtkr)
 - [License Agreement](https://www.creative-tim.com/license?ref=readme-mtkr)
 - [Support](https://www.creative-tim.com/contact-us?ref=readme-mtkr)
@@ -146,7 +146,7 @@ At present, we officially aim to support the last two versions of the following 
 
 We use GitHub Issues as the official bug tracker for the Material Tailwind Kit React. Here are some advices for our users that want to report an issue:
 
-1. Make sure that you are using the latest version of the Material Tailwind Kit React. Check the CHANGELOG from your dashboard on our [website](https://www.creative-tim.com/product/material-tailwind-kit-react?ref=readme-mtkr).
+1. Make sure that you are using the latest version of the Material Tailwind Kit React. Check the CHANGELOG from your dashboard on our [website](#?ref=readme-mtkr).
 2. Providing us reproducible steps for the issue will shorten the time it takes for it to be fixed.
 3. Some issues may be browser specific, so specifying in what browser you encountered the issue might help.
 
