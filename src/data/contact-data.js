@@ -2,6 +2,7 @@ import {
   BriefcaseIcon,
   ChartBarIcon,
   PlayIcon,
+  PlayPauseIcon,
 } from "@heroicons/react/24/solid";
 
 export const contactData = [
@@ -20,6 +21,12 @@ export const contactData = [
   {
     title: "Launch Time",
     icon: PlayIcon,
+    description:
+      "Some quick example text to build on the card title and make up the bulk of the card's content.",
+  },
+  {
+    title: "Dinner Time",
+    icon: PlayPauseIcon,
     description:
       "Some quick example text to build on the card title and make up the bulk of the card's content.",
   },
