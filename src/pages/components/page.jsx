@@ -195,26 +195,34 @@ export const PageComponents = () => {
                         </Typography>
                      </CardBody>
                   </Card>
-                  <Card className="mt-1">  
-                     <CardBody className='p-3'>
-                        <Typography variant="h6" color="blue-gray" className='font-normal'>
-                           Tabs
-                        </Typography>
-                        <Typography variant='small' className='font-bold text-gray-400 text-xs'>
-                           This component support by material tailwind
-                        </Typography>
-                     </CardBody>
-                  </Card>
-                  <Card className="mt-1">  
-                     <CardBody className='p-3'>
-                        <Typography variant="h6" color="blue-gray" className='font-normal'>
-                           Tables
-                        </Typography>
-                        <Typography variant='small' className='font-bold text-gray-400 text-xs'>
-                           This component support by material tailwind
-                        </Typography>
-                     </CardBody>
-                  </Card>
+                  <a 
+                     href="/components-tab"
+                     >
+                     <Card className="mt-1">  
+                        <CardBody className='p-3'>
+                           <Typography variant="h6" color="blue-gray" className='font-normal'>
+                              Tabs
+                           </Typography>
+                           <Typography variant='small' className='font-bold text-gray-400 text-xs'>
+                              This component support by material tailwind
+                           </Typography>
+                        </CardBody>
+                     </Card>
+                  </a>
+                  <a 
+                     href="/components-table"
+                     >
+                     <Card className="mt-1">  
+                        <CardBody className='p-3'>
+                           <Typography variant="h6" color="blue-gray" className='font-normal'>
+                              Tables
+                           </Typography>
+                           <Typography variant='small' className='font-bold text-gray-400 text-xs'>
+                              This component support by material tailwind
+                           </Typography>
+                        </CardBody>
+                     </Card>
+                  </a>
                   <Card className="mt-1">  
                      <CardBody className='p-3'>
                         <Typography variant="h6" color="blue-gray" className='font-normal'>

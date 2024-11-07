@@ -9,6 +9,8 @@ import FormPage from "./pages/components/form";
 import InputPage from "./pages/components/input";
 import IconPage from "./pages/components/icon";
 import ImagePage from "./pages/components/image";
+import TabPage from "./pages/components/tabs";
+import TablePage from "./pages/components/table";
 
 export const routes = [
   {
@@ -80,6 +82,16 @@ export const routes = [
     name: "Image",
     path: "/components-image",
     element: <ImagePage />,
+  },
+  {
+    name: "Tabs",
+    path: "/components-tab",
+    element: <TabPage />,
+  },
+  {
+    name: "Table",
+    path: "/components-table",
+    element: <TablePage />,
   },
   {
     name: "Docs",

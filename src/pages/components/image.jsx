@@ -48,7 +48,7 @@ export const ImagePage = () => {
               </figcaption>
             </figure>
 
-            <figure className="mt-6 relative h-52 w-full">
+            <figure className="mt-6 relative h-52 w-full overflow-hidden rounded-xl">
               <img
                 className="h-full w-full rounded-xl object-cover object-center hover:blur-sm duration-200"
                 src="https://img.freepik.com/free-photo/dark-scene-crow-nature_23-2151370443.jpg"
