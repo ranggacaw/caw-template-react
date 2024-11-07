@@ -7,9 +7,10 @@ export const PageComponents = () => {
    return (
       <>
          <section className="relative block h-[30vh]">
-            <div className="bg-profile-background absolute top-0 h-full w-full bg-[url('/img/background-3.png')] bg-cover bg-center scale-105" />
+            <div className="bg-profile-background absolute top-0 h-full w-full bg-[url('/img/background-3.png')] bg-cover bg-center" />
             <div className="absolute top-0 h-full w-full bg-black/60 bg-cover bg-center" />
          </section>
+
          <section className="relative bg-white py-16 mb-10">
             <div className="relative mb-6 -mt-40 flex w-full px-4 min-w-0 flex-col break-words bg-white">
                <div className="container mx-auto">
@@ -25,12 +26,11 @@ export const PageComponents = () => {
             </div>
          </section>
 
-         
          <section className="relative bg-white py-16">
             <div className="relative mb-6 -mt-40 flex w-full px-4 min-w-0 flex-col break-words bg-white">
                <div className="container mx-auto">
                   <a 
-                     href="#"
+                     href="/components-accordion"
                      >
                      <Card className="mt-1">  
                         <CardBody className='p-3'>
@@ -53,46 +53,48 @@ export const PageComponents = () => {
                         </Typography>
                      </CardBody>
                   </Card>
-                  <Card className="mt-1">  
-                     <CardBody className='p-3'>
-                        <Typography variant="h6" color="blue-gray" className='font-normal'>
-                           Button
-                        </Typography>
-                        <Typography variant='small' className='font-bold text-gray-400 text-xs'>
-                           This component support by material tailwind
-                        </Typography>
-                     </CardBody>
-                  </Card>
-                  <Card className="mt-1">  
-                     <CardBody className='p-3'>
-                        <Typography variant="h6" color="blue-gray" className='font-normal'>
-                           Breadcrumbs
-                        </Typography>
-                        <Typography variant='small' className='font-bold text-gray-400 text-xs'>
-                           This component support by material tailwind
-                        </Typography>
-                     </CardBody>
-                  </Card>
-                  <Card className="mt-1">  
-                     <CardBody className='p-3'>
-                        <Typography variant="h6" color="blue-gray" className='font-normal'>
-                           Cards - Content
-                        </Typography>
-                        <Typography variant='small' className='font-bold text-gray-400 text-xs'>
-                           This component support by material tailwind
-                        </Typography>
-                     </CardBody>
-                  </Card>
-                  <Card className="mt-1">  
-                     <CardBody className='p-3'>
-                        <Typography variant="h6" color="blue-gray" className='font-normal'>
-                           Cards - Captions
-                        </Typography>
-                        <Typography variant='small' className='font-bold text-gray-400 text-xs'>
-                           This component support by material tailwind
-                        </Typography>
-                     </CardBody>
-                  </Card>
+                  <a 
+                     href="/components-button"
+                     >
+                     <Card className="mt-1">  
+                        <CardBody className='p-3'>
+                           <Typography variant="h6" color="blue-gray" className='font-normal'>
+                              Button
+                           </Typography>
+                           <Typography variant='small' className='font-bold text-gray-400 text-xs'>
+                              This component support by material tailwind
+                           </Typography>
+                        </CardBody>
+                     </Card>
+                  </a>
+                  <a 
+                     href="/components-breadcrumb"
+                     >
+                     <Card className="mt-1">  
+                        <CardBody className='p-3'>
+                           <Typography variant="h6" color="blue-gray" className='font-normal'>
+                              Breadcrumbs
+                           </Typography>
+                           <Typography variant='small' className='font-bold text-gray-400 text-xs'>
+                              This component support by material tailwind
+                           </Typography>
+                        </CardBody>
+                     </Card>
+                  </a>
+                  <a 
+                     href="/components-card"
+                     >
+                     <Card className="mt-1">  
+                        <CardBody className='p-3'>
+                           <Typography variant="h6" color="blue-gray" className='font-normal'>
+                              Cards - Content
+                           </Typography>
+                           <Typography variant='small' className='font-bold text-gray-400 text-xs'>
+                              This component support by material tailwind
+                           </Typography>
+                        </CardBody>
+                     </Card>
+                  </a>
                   <Card className="mt-1">  
                      <CardBody className='p-3'>
                         <Typography variant="h6" color="blue-gray" className='font-normal'>
@@ -103,16 +105,20 @@ export const PageComponents = () => {
                         </Typography>
                      </CardBody>
                   </Card>
-                  <Card className="mt-1">  
-                     <CardBody className='p-3'>
-                        <Typography variant="h6" color="blue-gray" className='font-normal'>
-                           Component Collapse
-                        </Typography>
-                        <Typography variant='small' className='font-bold text-gray-400 text-xs'>
-                           This component support by material tailwind
-                        </Typography>
-                     </CardBody>
-                  </Card>
+                  <a 
+                     href="/components-collapse"
+                     >
+                     <Card className="mt-1">  
+                        <CardBody className='p-3'>
+                           <Typography variant="h6" color="blue-gray" className='font-normal'>
+                              Component Collapse
+                           </Typography>
+                           <Typography variant='small' className='font-bold text-gray-400 text-xs'>
+                              This component support by material tailwind
+                           </Typography>
+                        </CardBody>
+                     </Card>
+                  </a>
                   <Card className="mt-1">  
                      <CardBody className='p-3'>
                         <Typography variant="h6" color="blue-gray" className='font-normal'>
@@ -208,7 +214,7 @@ export const PageComponents = () => {
          </section>
 
          <div className="bg-white">
-         <Footer />
+            <Footer />
          </div>
       </>
    )

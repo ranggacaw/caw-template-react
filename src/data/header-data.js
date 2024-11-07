@@ -11,7 +11,7 @@ export const headerData = [
       id: 2,
       name: "Components",
       icon: BellIcon,
-      path: "/profile",
+      path: "/components-index",
     },
     {
       id: 3,

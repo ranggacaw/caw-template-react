@@ -1,6 +1,10 @@
 import { Home, Profile, SignIn, SignUp } from "@/pages";
 import { PageComponents } from "@/pages/components/page";
-import { Accordion } from "@material-tailwind/react";
+import AccordionPage from "./pages/components/accordion";
+import ButtonPage from "./pages/components/button";
+import BreadcrumbPage from "./pages/components/breadcrum";
+import CardPage from "./pages/components/card";
+import CollapsePage from "./pages/components/collapse";
 
 export const routes = [
   {
@@ -31,7 +35,27 @@ export const routes = [
   {
     name: "Accordion",
     path: "/components-accordion",
-    element: <Accordion />,
+    element: <AccordionPage />,
+  },
+  {
+    name: "Button",
+    path: "/components-button",
+    element: <ButtonPage />,
+  },
+  {
+    name: "Breadcrumb",
+    path: "/components-breadcrumb",
+    element: <BreadcrumbPage />,
+  },
+  {
+    name: "Breadcrumb",
+    path: "/components-card",
+    element: <CardPage />,
+  },
+  {
+    name: "Collapse",
+    path: "/components-collapse",
+    element: <CollapsePage />,
   },
   {
     name: "Docs",
