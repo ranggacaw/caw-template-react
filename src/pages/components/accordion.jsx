@@ -10,7 +10,7 @@ function Icon({ id, opeen }) {
       viewBox="0 0 24 24"
       strokeWidth={2}
       stroke="currentColor"
-      className={`${id === opeen ? "rotate-180" : ""} h-5 w-5 transition-transform w-2.5`}
+      className={`${id === opeen ? "rotate-180" : ""} h-5 transition-transform w-2.5`}
     >
       <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
     </svg>
@@ -51,11 +51,11 @@ export const AccordionPage = () => {
       <section className="relative bg-white py-16">
         <div className="relative mb-6 -mt-40 flex w-full px-4 min-w-0 flex-col break-words bg-white">
           <div className="container mx-auto">
-          {/* Classic Accordion */}
+          {/* Classic Collapse */}
             <Card className='mb-6'>
               <CardBody>
-                <h4 className='font-bold'>Classic Accordion</h4>
-                <p className='mb-6 text-sm'>Simple accordions, you can use them with or without icons, it's incredibly simple.</p>
+                <h4 className='font-bold'>Classic Collapse</h4>
+                <p className='mb-6 text-sm'>Simple link list that can get tapped to reveal more content. We used links in our example, you can use anything you want.</p>
 
                 <Accordion open={open === 1}>
                   <AccordionHeader onClick={() => handleOpen(1)} className='text-sm'>What is Material Tailwind?</AccordionHeader>

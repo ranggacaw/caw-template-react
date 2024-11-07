@@ -5,6 +5,10 @@ import ButtonPage from "./pages/components/button";
 import BreadcrumbPage from "./pages/components/breadcrum";
 import CardPage from "./pages/components/card";
 import CollapsePage from "./pages/components/collapse";
+import FormPage from "./pages/components/form";
+import InputPage from "./pages/components/input";
+import IconPage from "./pages/components/icon";
+import ImagePage from "./pages/components/image";
 
 export const routes = [
   {
@@ -56,6 +60,26 @@ export const routes = [
     name: "Collapse",
     path: "/components-collapse",
     element: <CollapsePage />,
+  },
+  {
+    name: "Form",
+    path: "/components-form",
+    element: <FormPage />,
+  },
+  {
+    name: "Input",
+    path: "/components-input",
+    element: <InputPage />,
+  },
+  {
+    name: "Icons",
+    path: "/components-icon",
+    element: <IconPage />,
+  },
+  {
+    name: "Image",
+    path: "/components-image",
+    element: <ImagePage />,
   },
   {
     name: "Docs",
